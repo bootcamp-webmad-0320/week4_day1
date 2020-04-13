@@ -1,0 +1,15 @@
+{
+  "name": "german_first_project",
+  "version": "1.0.0",
+  "description": "Primer proyecto node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Germán Álvarez",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "faker": "^4.1.0"
+  }
+}

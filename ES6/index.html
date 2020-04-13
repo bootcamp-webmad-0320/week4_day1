@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6</title>
+</head>
+
+<body>
+    <script>
+
+        // const str = "To be, or not to be, that is the question.";
+
+        // console.log(str.startsWith("To be")); // true
+        // console.log(str.startsWith("not to be")); // false
+        // console.log(str.startsWith("not to be", 10)); // true
+
+
+
+
+        // const str = "To be, or not to be, that is the question.";
+
+        // console.log(str.includes("to be")); // true
+        // console.log(str.includes("question")); // true
+        // console.log(str.includes("nonexistent")); // false
+        // console.log(str.includes("To be", 1)); // false
+
+
+
+
+        // Object destructuring
+
+        const person = {
+            name: "Ironhacker",
+            age: 25,
+            favoriteMusic: "Metal",
+            address: {
+                street: "Super Cool St",
+                number: 123,
+                city: "Miami"
+            }
+        }
+
+        let { name, age, favoriteMusic, address } = person
+        let { street, number, city } = person.address
+
+        console.log('Variables:', name, age, favoriteMusic, street, number, city)
+
+
+
+
+        // Array destructuring
+
+        const numbers = ["one", "two", "three", "four", "five"]
+        const [number1, number2, , number4] = numbers
+
+        console.log('Variables:', number1, number2, number4)
+
+
+
+        // Spread operator
+        const reptiles = ["snake", "lizard", "alligator"]
+        const mammals = ["puppy", "kitten", "bunny"]
+
+        const animals = [...mammals, ...reptiles]
+
+
+
+        showNumbers(2, 8, 39, 475)
+
+        // function showNumbers() {
+
+        //         const copyArgs = [...arguments]
+        //         copyArgs.forEach(elm => console.log(elm))
+        // }
+
+
+        function showNumbers(...numbers) {
+            numbers.forEach(elm => console.log(elm))
+        }
+
+
+    </script>
+</body>
+
+</html>
