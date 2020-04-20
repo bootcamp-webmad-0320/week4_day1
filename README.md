@@ -9,7 +9,7 @@
 
 Vídeo completo [en este enlace](https://ironhack.zoom.us/rec/share/6pN4EZLX73JJTK-d5WDaAbNxJNvYaaa803NK-6EPyBnpwhoIvccg4ddOmH7nUoWY)
 
-## Main points: object & array destructuring
+## Main points: object & array deconstructing
 
 - Cuando los nombres de las variables coincidenc on los nombres de las propiedades a extraer de un obejto, la técnica de destructuración permite un código más liviano:
 
