@@ -11,7 +11,7 @@ Vídeo completo [en este enlace](https://ironhack.zoom.us/rec/share/6pN4EZLX73JJ
 
 ## Main points: object & array deconstructing
 
-- Cuando los nombres de las variables coincidenc on los nombres de las propiedades a extraer de un obejto, la técnica de destructuración permite un código más liviano:
+- La técnica de destructuración permite un código más liviano al extraer valores de un objeto en variables que coinciden con el nombre de sus propiedades:
 
  ````javascript
  const person = {
@@ -22,7 +22,7 @@ Vídeo completo [en este enlace](https://ironhack.zoom.us/rec/share/6pN4EZLX73JJ
  const { name, age, hobbies } = person
  ````
 
-- Igualmente es posible aplicar una técnica similar frente a los Arrays:
+- Es posible aplicar una técnica similar frente a los Arrays:
 
  ````javascript
  const drinks = ['coca-cola', 'cacaolat', 'beer', 'lemonade']
