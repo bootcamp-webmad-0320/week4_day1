@@ -47,7 +47,7 @@ Vídeo completo [en este enlace](https://ironhack.zoom.us/rec/share/6pN4EZLX73JJ
  }
  ````
 
-## Main points: Comandos NPM
+## Main points: NPM commands
 
 - `npm init`: comienza un proyecto de NPM creando `package.json`
 - `npm install`: instala las dependencias del archivo `package.json` presente en el directorio  (shortcut `npm i`)
