@@ -51,9 +51,9 @@ Vídeo completo [en este enlace](https://ironhack.zoom.us/rec/share/6pN4EZLX73JJ
 
 - `npm init`: comienza un proyecto de NPM creando `package.json`
 - `npm install`: instala las dependencias del archivo `package.json` presente en el directorio  (shortcut `npm i`)
-- `npm install`*`module_name`*: instala el módulo indicado en el proyecto de NPM (shortcut `npm i`*`module_name`*), lo que supone:
+- `npm install`*`module_name`*: instala el módulo indicado en el proyecto de NPM (equivalente a `npm i`*`module_name`*), lo que supone:
   - Referenciarlo en el archivo `package.json` bajo la propiedad `dependencies`
   - Incluir sus archivos en el directorio `node_modules`
-- `npm uninstall`*`module_name`*: instala el módulo indicado en el proyecto de NPM (shortcut `npm u`*`module_name`*), lo que supone:
+- `npm uninstall`*`module_name`*: instala el módulo indicado en el proyecto de NPM (equivalente a `npm u`*`module_name`*), lo que supone:
   - Eliminarlo del archivo `package.json` bajo la propiedad `dependencies`
   - Excluir sus archivos del directorio `node_modules`
